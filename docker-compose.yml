@@ -2,7 +2,7 @@ version: "3"
 
 services:
   server:
-    image: microblogpub/microblogpub:latest 
+    image: ghcr.io/kyosakuyo/microblog.pub:v2
     container_name: microblogpub
     user: root:root
     restart: always
