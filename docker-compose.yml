@@ -4,7 +4,7 @@ services:
   server:
     image: microblogpub/microblogpub:latest 
     container_name: microblogpub
-    user: 1000:1000
+    user: root:root
     restart: always
     volumes:
       - ./data:/app/data
