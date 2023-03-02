@@ -10,4 +10,4 @@ services:
       - ./data:/app/data
       - ./app/static:/app/app/static
     ports:
-      - "8000:8000"
+      - "8000:8082"
